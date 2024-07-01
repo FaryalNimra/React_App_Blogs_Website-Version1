@@ -1,0 +1,57 @@
+.rubik-bold-heading {
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 10px; 
+    margin-right: 10px;/* Align paragraphs justified */
+}
+.rubik-bold-heading1 {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 10px; 
+    margin-right: 10px;/* Align paragraphs justified */
+}
+.rubik-bold-heading:hover {
+    
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .rubik-bold-heading1:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s ease-in-out;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+.content-image {
+    max-width: 100%; /* Adjust the maximum width as per your design */
+    height: auto; /* Ensures the image maintains its aspect ratio */
+    
+}
+.content-image:hover {
+    background-color: #e95500;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+.paragraph-container {
+    margin-top: 5px; /* Adjust top margin as needed */
+}
+.paragraph-container:hover {
+    background-color: white;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+.blog-paragraph {
+    margin-bottom: 10px; /* Adjust bottom margin as needed */
+    text-align: justify;
+    margin-left: 10px; 
+    margin-right: 10px;/* Align paragraphs justified */
+    font-size: 12px;
+}
+

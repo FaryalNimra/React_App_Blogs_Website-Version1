@@ -1,0 +1,557 @@
+body {
+    background-image: url('./home-bg.jpg');
+    background-color: #23329B; /* Purple background for the entire body */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Montserrat, sans-serif; /* Optional: Define a default font */
+    height: 100vh;/* Fix the height of the body to 100% of the viewport height */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px; /* Adjust max width as needed */
+    width: 100%;
+    margin: 0 auto; /* Center align content */
+    padding: 50px 20px; /* Adjusted padding */
+}
+.content{
+    max-width: 50%; /* Adjust content width */
+    text-align: left; /* Align text to the left */
+    color: white; /* Text color */
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.image {
+    max-width: 40%; /* Adjust image width */
+    text-align: right; /* Align image to the right */
+}
+
+.main-background-image {
+    width: 100%; /* Ensure image fills its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Box shadow for image */
+}
+.image:hover {
+    background-color: White;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */ /* Darker orange on hover */
+}
+.cta-button {
+    margin-top: 20px; /* Space above the CTA button */
+}
+
+.get-started-btn {
+    background-color: orange;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 15px; /* Rounded corners for buttons */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.get-started-btn:hover {
+    background-color: #e95500;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */ /* Darker orange on hover */
+}
+.additional-content {
+    background-color: white;
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center;
+    flex-wrap: nowrap; /* Ensures items stay in a single line */
+    padding: 20px;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: nowrap; /* Ensures items stay in a single line */
+  }
+  
+  .column {
+    flex: 1; /* Each column takes equal space */
+    text-align: center;
+    margin: 0 10px; /* Adjust margin as needed */
+  }
+  .column:hover {
+    background-color: whitesmoke;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+.column h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: purple; /* Adjust color as needed */
+}
+
+.column p {
+    color: #333; /* Adjust text color as needed */
+    line-height: 1.5;
+}
+.icon-small {
+    width: 24px; /* Adjust size as needed */
+    height: 24px; /* Adjust size as needed */
+    margin-right: 10px; /* Adjust spacing between icon and text */
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust spacing between rows */
+}
+/* Existing styles remain unchanged */
+
+.new-section {
+    background-color: white;
+    padding: 50px; /* Adjust padding as needed */
+    margin-top: 30px; /* Space between sections */
+}
+
+.new-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px; /* Adjust max width as needed */
+    width: 100%;
+    margin: 0 auto; /* Center align content */
+    padding: 20px; /* Adjusted padding */
+}
+
+.new-section .left-content {
+    max-width: 50%; /* Adjust content width */
+    text-align: left; /* Align text to the left */
+}
+
+.new-section .right-image {
+    max-width: 40%; /* Adjust image width */
+    text-align: right; /* Align image to the right */
+}
+
+.new-section .new-section-image {
+    width: 100%; /* Ensure image fills its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Box shadow for image */
+}
+.new-section .new-section-image:hover{
+    background-color: #23329B;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+.new-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; /* Adjust text color as needed */
+}
+
+.new-section {
+    background-color: white;
+    padding: 50px; /* Adjust padding as needed */
+}
+
+.centered-content {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.centered-content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: purple; /* Adjust color as needed */
+}
+
+.centered-content p {
+    color: #333; /* Adjust text color as needed */
+    
+  
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.column {
+    flex: 1;
+   
+}
+
+.column h3 {
+    font-size: 18px;
+    
+}
+.icon-heading {
+    display: flex;
+    align-items: center;
+}
+
+.icon-heading .icon {
+    margin: 0 5px; /* Adjust the margin as needed */
+}
+
+.icon-heading h3 {
+    margin: 0 5px; /* Adjust the margin as needed */
+}
+.iconr {
+    width: 15px;
+    height: 15px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px; 
+}
+.iconr{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+.container1 {
+    display: flex;
+    height: 70; /* Full viewport height */
+    background-color: white; /* Background color of the div */
+  }
+  
+  .left-image{
+    width: 50%;
+    height: 70%;
+    
+  }
+  .left-image:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+  }
+  .right-image {
+    width: 100%;
+    height: auto;
+  
+  }
+  .right-image:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+  }
+  .right-image-container {
+    position: relative;
+    width: 50%;
+    height: 120%;
+    font-family: Montserrat;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+  .overlay h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .overlay p {
+    margin-top: 10px;
+  }
+  
+  .overlay button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #F54E4E;
+    color: white;
+    border: white;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 15px; /* Rounded corners for buttons */
+  }
+  .overlay button:hover{
+    background-color:orange;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+  }
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0; /* Example background color */
+}
+
+.left1 {
+    flex: 1; /* Left section takes 50% of container width */
+}
+
+.left-image1 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.left-image1:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+.right {
+    flex: 1; /* Right section takes 50% of container width */
+    padding: 0 20px; /* Adjust padding as needed */
+    text-align: left; /* Align content to the left */
+}
+.container2 h1 {
+    font-size: 25px; /* Example font size */
+    font-weight: bold;
+    color: black; /* Example text color */
+   
+}
+
+
+.paragraph {
+    font-size: 1.2em; /* Example font size */
+    line-height: 1.5;
+    color: black; /* Example text color */
+}
+
+.buttons {
+    margin-top: 20px; /* Adjust spacing between paragraph and buttons */
+}
+
+.button {
+    margin-right: 10px; /* Adjust spacing between buttons */
+    padding: 10px 20px; /* Adjust button padding */
+    background-color: #23329B; /* Example button background color */
+    color: #ffffff; /* Example button text color */
+    border: none;
+    cursor: pointer;
+    border-radius: 15px; /* Rounded corners for buttons */
+}
+
+.button:hover {
+    background-color: white; 
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow on hover *//* Example button hover background color */
+}
+
+.container3 {
+    padding: 20px;
+    background-color: #f8f9fa;
+    font-family: Montserrat /* Example background color */
+}
+
+.start {
+    text-align: left; /* Align content to the left */
+    margin-bottom: 20px; /* Example margin bottom */
+}
+
+.start p {
+    font-size: 12px;
+    color: black;
+}
+
+.start h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.start p {
+    font-size: 12px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-left{
+    max-width: 100%;
+    height: 50%;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px; 
+
+}
+.image-left:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+.image-right {
+    max-width: 100%;
+    height: 50%;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px; /* Adjust spacing between images */
+}
+.image-right:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+.image-button {
+    padding: 10px 20px;
+    color: white; /* White text color */
+    background-color: #F54E4E; /* Red button color */
+    border: none; /* Remove border */
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    border-radius: 15px; /* Rounded corners for buttons *//* Smooth transition for background color */
+}
+
+.image-button:hover {
+    background-color: #e64343;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */ /* Darker red on hover */
+}
+
+.icon {
+    width: 40px; /* Adjust icon size as needed */
+    height: 40px; /* Maintain aspect ratio */
+    margin-right: 5px; /* Adjust spacing between icon and button */
+}
+.icon:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.additional-info {
+    display: flex;
+    align-items: center;
+    margin-left: 10px; /* Adjust spacing between button and additional info */
+}
+
+.info-text {
+    margin-left: 5px; /* Adjust spacing between icon and text */
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+.container4 {
+    display: flex;
+    background-color: white;
+    justify-content: space-between; /* Distribute columns evenly */
+    margin-top: 20px; /* Adjust margin as needed */
+    align-items: center; /* Center items vertically */
+}
+
+.container4 .column {
+    flex: 1; /* Each column takes equal space */
+    padding: 20px; /* Padding inside each column */
+    border: 1px solid white; /* Example border */
+    text-align: center;
+}
+
+.container4 .column h2 {
+    font-size: 12px; /* Heading font size */
+    margin-bottom: 10px; /* Bottom margin for heading */
+    font-family: Montserrat, sans-serif;
+}
+.container4 .column h1 {
+    font-size: 25px; /* Heading font size */
+    margin-bottom: 10px; /* Bottom margin for heading */
+    font-family: Montserrat, sans-serif;
+}
+
+.container4 .column p {
+    font-size: 12px; /* Paragraph font size */
+    color: #767B9C; /* Paragraph text color */
+    line-height: 1.5; /* Line height for readability */
+    font-family: Montserrat, sans-serif;
+}
+.button-container {
+    display: flex; /* Use flexbox for layout */
+}
+
+.column-button {
+    padding: 10px 20px; /* Padding around the buttons */
+    background-color: #F5BE4E; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    margin-right: 10px; 
+    border-radius: 15px; /* Rounded corners for buttons *//* Margin between buttons */
+}
+.column-button:hover{
+background-color:#e95500;
+transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+.icons-container {
+    display: flex; /* Display icons in a flex container */
+    align-items: center; /* Align items vertically */
+}
+.icons-container:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+.icon1 {
+    width: 20px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Adjust spacing between icons */
+}
+
+.icon2 {
+    width: 20px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Adjust spacing between icons */
+}
+
+/* Define keyframes for fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out; /* Adjust animation duration and timing function */
+}

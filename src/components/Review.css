@@ -1,0 +1,52 @@
+.review {
+    position: relative;
+    margin-top: 20px; /* Add top margin to the section */
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.image-container:hover {
+background-color: #e95500;
+transform: scale(1.1);
+transition: transform 0.3s ease-in-out;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.overlay1 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content-heading {
+    font-size: 18px;
+    color: white;
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left: 25px;
+}
+.white-background {
+    background-color: white;
+    padding: 40px;
+}
+
+.centered-content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute columns evenly */
+}
+
+.column {
+    flex: 1; /* Each column takes up equal space */
+    padding: 10px; /* Add padding for spacing */
+}
