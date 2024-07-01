@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css'; 
 import leftImage1 from './home-img-1.png'; // Adjust the path accordingly
-import backgroundImage from '././leftimage.png'; 
+import backgroundImage from './leftimage.png'; 
 import backgroundImage1 from './why.png'; 
 import leftImage from './leftimage.png';
 import rightImage from './rightimage1.png';
