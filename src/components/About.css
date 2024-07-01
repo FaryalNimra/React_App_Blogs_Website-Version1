@@ -23,14 +23,14 @@
 }
 
 .container h1 {
-    font-size: 60px    ; /* Example font size */
+    font-size: 60px; /* Example font size */
     font-weight: 600;
     color: black; /* Example text color */
-    font-family:Rubik;
-
+    font-family: Rubik;
 }
+
 .paragraph {
-    font-size:25px ; /* Example font size */
+    font-size: 25px; /* Example font size */
     line-height: 1.5;
     color: black; /* Example text color */
 }
@@ -51,10 +51,9 @@
 
 .button:hover {
     background-color: white; /* Example button hover background color */
-    color: #F54E4E; 
-    border: 1px solid #F54E4E; 
+    color: #F54E4E;
+    border: 1px solid #F54E4E;
 }
-
 
 .new-section {
     background-color: white;
@@ -90,15 +89,10 @@
 }
 
 .new-section h1 {
-    font-size: 40px    ; /* Example font size */
+    font-size: 40px; /* Example font size */
     font-weight: 600;
     color: black; /* Example text color */
-    font-family:Rubik;
-
-}
-.new-section {
-    background-color: white;
-    padding: 50px; /* Adjust padding as needed */
+    font-family: Rubik;
 }
 
 .custom-div {
@@ -148,58 +142,10 @@
     margin-right: 10px; /* Space between icon and text */
 }
 
-.custom-div {
-    background-color: #23329B; /* Custom background color */
-    color: white; /* White text color */
-    padding: 40px 20px;
-    font-family: Rubik;
-}
-
 .content {
     text-align: right; /* Align content to the right */
 }
 
-.main-paragraph {
-    font-size: 1.2em;
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-
-.main-heading {
-    font-size: 2.5em;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-
-.three-columns {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-    color: white;
-}
-
-.column {
-    flex: 1;
-    padding: 10px;
-    margin: 0 10px;
-    text-align: left; /* Align text within each column to the right */
-}
-
-.column-paragraph {
-    font-size: 1em;
-    color: white;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.icon {
-    margin-right: 10px; /* Space between icon and text */
-    width: 30px; /* Example icon width */
-    height: 40px; /* Example icon height */
-}
 .white-background {
     background-color: white;
     padding: 40px;
@@ -219,6 +165,7 @@
     flex: 1; /* Each column takes up equal space */
     padding: 10px; /* Add padding for spacing */
 }
+
 .new-section-image {
     max-width: 100%;
     height: auto;
@@ -234,7 +181,7 @@
 .button-left {
     width: 100%;
     padding: 10px 20px;
-    background-color:  white;
+    background-color: white;
     color: black;
     border: none;
     cursor: pointer;
@@ -248,67 +195,67 @@
     border: none;
     cursor: pointer;
 }
-.centered-content h1{
-    font-size: 30px    ; /* Example font size */
+
+.centered-content h1 {
+    font-size: 30px; /* Example font size */
     font-weight: 600;
     color: black; /* Example text color */
-    font-family:Rubik;
+    font-family: Rubik;
     margin-left: 20px;
-
-
 }
-.centered-content p{
-font-size: 10px;
-color: black;
-line-height: 1.5;
-display: center;
-align-items: center;
-justify-content: center;
-;}
+
+.centered-content p {
+    font-size: 10px;
+    color: black;
+    line-height: 1.5;
+    display: center;
+    align-items: center;
+    justify-content: center;
+}
+
 .container1 {
     display: flex;
     height: 70; /* Full viewport height */
     background-color: white; /* Background color of the div */
-  }
-  
-  .left-image{
+}
+
+.left-image {
     width: 50%;
     height: 70%;
-    
-  }
-  .right-image {
+}
+
+.right-image {
     width: 100%;
     height: 100%;
-  
-  }
-  
-  .right-image-container {
+}
+
+.right-image-container {
     position: relative;
     width: 50%;
     height: 100%;
     font-family: Montserrat;
-  }
-  
-  .overlay {
+}
+
+.overlay {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-  }
-  
-  .overlay h1 {
+}
+
+.overlay h1 {
     font-weight: bold;
     font-size: 20px;
     color: white;
-  }
-  
-  .overlay p {
+}
+
+.overlay p {
     margin-top: 10px;
-  }
-  
-  .overlay button {
+}
+
+.overlay button {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #F54E4E;
@@ -317,8 +264,9 @@ justify-content: center;
     cursor: pointer;
     font-size: 1em;
     font-weight: bold;
-  }
-  .centered1 {
+}
+
+.centered1 {
     background-color: white;
     text-align: center;
     padding: 20px;
@@ -338,7 +286,6 @@ justify-content: center;
     line-height: 1.6;
     color: #333;
     text-align: left;
-   
 }
 
 .faq-content {
@@ -368,5 +315,100 @@ justify-content: center;
 .icon1 {
     margin-right: 10px; /* Adjust spacing between icon and text */
     height: 10px;
-    width:10px /* Adjust height of the icon */
+    width: 10px; /* Adjust height of the icon */
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+    .container2 {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .left1, .right {
+        flex: 1;
+        width: 100%;
+        padding: 0;
+    }
+
+    .left-image1 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .right {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .new-section .container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .new-section .left-content,
+    .new-section .right-image {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .three-columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .custom-div {
+        padding: 20px 10px;
+    }
+
+    .centered-content {
+        text-align: center;
+    }
+
+    .centered-content h1 {
+        font-size: 24px;
+    }
+
+    .centered-content p {
+        font-size: 14px;
+    }
+
+    .container1 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-image, .right-image-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .overlay h1 {
+        font-size: 18px;
+    }
+
+    .centered1 {
+        padding: 10px;
+    }
+
+    .centered1 h1 {
+        font-size: 1.5em;
+        margin: 0 10px;
+    }
+
+    .centered1 p,
+    .faq-content,
+    .faq-item h2,
+    .faq-item p {
+        margin: 0 10px;
+        font-size: 1em;
+    }
 }
